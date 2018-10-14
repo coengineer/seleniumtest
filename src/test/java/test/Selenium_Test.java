@@ -52,8 +52,8 @@ public class Selenium_Test extends testPageObjectModel{
 		public void test_1_3_loginControl()
 		{
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);	
-			findById("email").sendKeys("gurcanserttas@gmail.com");//Please enter the mail address		
-			findById("password").sendKeys("euXnvx5M9C7M66d");//Please enter the password
+			findById("email").sendKeys("uouremailaddress");//Please enter the mail address		
+			findById("password").sendKeys("yourpassword");//Please enter the password
 			findById("loginButton").click(); //login button
 			System.out.println("Kullanıcı Girişi Başarılı ");
 			
